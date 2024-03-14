@@ -1,0 +1,155 @@
+@import url('../../common.css');
+
+body {
+  background-color: gray;
+  margin: 0 50px;
+  font-weight: 700;
+}
+
+/* header 시작 */
+
+#wrapper header h1 {
+  background-color: orange;
+  font-size: 4em;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+#wrapper header h1 span {
+  display: block;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+#wrapper header .stit {
+  background-color: #ccc;
+  text-align: center;
+}
+
+/* header 끝 */
+
+/* side-menu 시작 */
+
+#wrapper .container {
+  background: #fff;
+}
+
+#wrapper .container .side-menu {
+  float: left;
+  width: 25%;
+}
+
+#wrapper .container .side-menu h3 {
+  background-color: #900;
+  padding: 10px;
+  color: #fff;
+}
+
+#wrapper .container .side-menu ul {
+  padding: 10px;
+  line-height: 40px;
+}
+
+
+#wrapper .container .side-menu ul li a {
+  text-decoration: underline;
+}
+
+#wrapper .container .side-menu ul li a:hover {
+  border-bottom: 2px dashed #000;
+}
+
+/* side-menu 끝 */
+
+/* main-content 시작 */
+
+#wrapper .main-content {
+  background-color: #a0a0a0;
+  float: left;
+  width: 50%;
+}
+
+#wrapper .main-content .art-piece .title {
+  background-color: #123456;
+  color: white;
+  margin: 10px 10px;
+  
+  padding: 10px;
+}
+
+/* 링크 클릭 영역 넓어짐 */
+#wrapper .main-content .art-piece .title a {
+  display: block;
+}
+
+#wrapper .main-content .art-piece .artist {
+  color: #123456;
+  margin: 10px;
+}
+
+#wrapper .main-content .art-piece .detail {
+  color: #123456;
+  padding: 10px;
+  font-weight: 100;
+  font-size: 0.8em;
+}
+
+/* main-content 끝 */
+
+/* banner 시작 */
+
+.container .banner {
+  float: left;
+  width: 25%;
+}
+
+.container .banner h3 {
+  font-size: 1.3em;
+  padding: 20px 10px;
+}
+.container .banner h3 span,
+.container .banner h3 strong {
+  display: block;
+  margin-bottom: 10px;
+}
+.container .banner h3 span {
+  text-decoration: underline;
+}
+.container .banner h3 .all {
+  color: #999;
+}
+.container .banner h3 .love {
+  color: #fa0;
+}
+
+.container .banner .link {
+  padding: 0 10px;
+}
+
+.container .banner .link li {
+  margin-bottom: 15px;
+}
+
+.container .banner .link li a {
+  display: block;
+  text-decoration: underline;    
+}
+
+.container .banner .link li span {
+  font-weight: 100;
+}
+
+/* banner 끝 */
+
+/* footer */
+
+footer {
+  background-color: #123456;
+  color: #fff;
+  padding: 10px;
+}
+
+footer a {
+  text-decoration: underline;
+}

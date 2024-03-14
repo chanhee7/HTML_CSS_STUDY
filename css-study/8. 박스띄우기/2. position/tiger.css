@@ -1,0 +1,76 @@
+body {
+  background-color: gray;
+  margin: 0 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+h1 {
+  text-align: center;
+  background: black;
+  color: yellow;
+  padding: 20px;
+    font-weight: 700;
+}
+
+h1 strong {
+  font-size: 3em;
+  color: white;
+}
+
+h1 em {
+  font-size: 2.5em;
+  color: white;
+}
+
+h1 span {
+  font-size: 2em;
+}
+
+.content h2 {
+  background: red;
+  color: yellow;
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+.content p {
+  background: white;
+  text-align: justify;
+  padding: 20px;
+}
+
+.container .menu {
+  float: left;
+  width: 20%;
+  height: 456px;
+  background-color: wheat;
+  text-align: center;
+}
+
+.container .content {
+  float: left;
+  width: 80%;
+}
+
+address {
+  background-color: burlywood;
+  padding: 20px;
+}
+
+li {
+  margin: 30px;
+}
+
+a {
+  color: black;
+}
+
