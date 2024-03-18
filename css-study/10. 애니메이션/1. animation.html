@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    .box {
+      width: 100px;
+      height: 100px;
+      background: greenyellow;
+    }
+
+    .box:hover {
+      /* animation: grow-shrink 2s; */
+
+      animation-name: grow-shrink;
+      animation-duration: 4s;
+      /* animation-delay: 0.5s; */
+
+      /* 애니메이션 반복횟수 */
+      animation-iteration-count: 2;
+      /* animation-iteration-count: infinite; */
+
+      /* animation-timing-function: ease; */
+      /* 동일하게 애니메이션 나옴 */
+      animation-timing-function: linear;
+
+      animation-direction: alternate;
+
+      /* 한번에 다쓸수있는 단축속성 */
+      animation: grow-shrink 2s 0.5s infinite linear alternate;
+
+    }
+     
+    /* 애니메이션 정의 */
+    @keyframes grow-shrink {
+      0%{
+        width: 100px;
+        background: greenyellow;
+      }
+      50%{
+        width: 500px;
+        background: orange;
+      }
+      100%{
+        width: 300px;
+        background: violet;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="box"></div>
+</body>
+</html>
