@@ -1,0 +1,117 @@
+@import url(../../common.css);
+
+
+div.container {
+  background: gray;
+  border: 3px solid skyblue;
+  font-weight: 100;
+  margin: 0 30px;
+}
+
+div.container h1 {
+  background: wheat;
+  text-align: center;
+  padding: 40px;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+div.container h2 {
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5em;
+  border-bottom: 2px solid #fff;
+}
+
+div.container span {
+  color: yellow;
+}
+
+div.container em {
+  font-size: 0.8em;
+}
+
+/* box style */
+
+div.gallery { 
+  padding-left: 45px;
+}
+
+div.gallery .box1 {
+  float: left;
+  width: 22%;
+  border: 1px solid #fff;
+  background: red;
+  padding: 15px;
+  margin: 15px;
+}
+
+div.gallery .box2 {
+  float: left;
+  width: 22%;
+  border: 1px solid #fff;
+  background: violet;
+  margin: 15px;
+  padding: 15px;
+}
+
+div.gallery .box3 {
+  float: left;
+  width: 22%;
+  border: 1px solid #fff;
+  background: orange;
+  margin: 15px;
+  padding: 15px;
+}
+
+div.gallery .box4  {
+  float: left;
+  width: 22%;
+  border: 1px solid #fff;
+  background: yellow;
+  margin: 15px;
+  padding: 15px;
+}
+
+div.gallery .img-box {
+  width: 90%;
+  height: 200px;
+  border: 1px solid #fff;
+}
+
+#image1 .img-box {
+  background: url(../../../img/tulip.jpg) no-repeat center/cover;
+  margin: 15px;
+  padding: 15px;
+}
+
+#image2 .img-box {
+  background: url(../../../img/jebi.jpg) no-repeat center/cover;
+  margin: 15px;
+  padding: 15px;
+}
+
+#image3 .img-box {
+  background: url(../../../img/hobak.jpg) no-repeat center/cover;
+  margin: 15px;
+  padding: 15px;
+}
+
+#image4 .img-box {
+  background: url(../../../img/sunflower.jpg) no-repeat center/cover;
+  margin: 15px;
+  padding: 15px;
+}
+
+
+div.gallery .text1, .text2, .text3, .text4 {
+  height: 200px;
+  width: 90%;
+  font-size: 1.5em;
+  margin: 15px;
+  padding: 15px;
+  font-weight: 700;
+  line-height: 30px;
+}
